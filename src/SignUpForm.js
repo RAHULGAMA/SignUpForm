@@ -84,6 +84,7 @@ function SignUpForm() {
         <div className="background-image">
           <img src={logo} alt="Logo" />
           <h1>Discover the world's top<br />Designr and Creatives.</h1>
+          <p></p>
         </div>
         <form onSubmit={showSignIn ? handleSignIn : handleSignUp} className="signup-form">
           {showSignIn ? (

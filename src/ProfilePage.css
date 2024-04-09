@@ -1,0 +1,146 @@
+
+  .container {
+    max-width: 0px;
+    margin-left: 200px;
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+  .container h1 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 70px;
+    margin-bottom: 15px;
+  }
+
+  .container p {
+    font-size: smaller;
+    margin-left: 70px;
+  }
+
+  img {
+    margin-top: 40px;
+    margin-left: 35px;
+  }
+
+  .element {
+    margin-bottom: 20px; 
+  }
+
+  .element label{
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+  
+  .element input {
+    margin-left: 70px;
+  }
+
+  .avatar-input {
+    display: flex;
+    align-items: center;
+  }
+
+  .avatar-placeholder {
+    width: 100px;
+    height: 100px;
+    margin-left: 75px;
+    background-color: #e7e6e6;
+    border-radius: 50%;
+  }
+  
+  .avatar-preview img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+  }
+
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input {
+    width: calc(45% - 4px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .button {
+    padding: 5px 10px;
+    width: 170px;
+    margin-top: 40px;
+    margin-left: 70px;
+    height: 40px;
+    background-color: #DE2980;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #d66199;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    .container {
+      margin-left: -10%;
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    img {
+      margin-top: 20px; 
+      margin-left: auto; 
+      margin-right: auto; 
+    }
+    
+    .container h1 {
+        font-size: 20px;
+    }
+
+    .element label,
+    .element input {
+        margin-left: 20%;
+        padding: 5px;
+    }
+
+    .avatar-input {
+      flex-direction: column; 
+  }
+
+  .avatar-input input {
+    margin-left: 33%;
+    margin-top: 5px;
+  }
+
+  .avatar-placeholder {
+      margin-left: 20%;
+      margin-right: auto;
+      margin-bottom: 5px; 
+  }
+
+  .avatar-preview img {
+      margin-top: 5px; 
+  }
+
+  .input {
+    width: calc(70% - 4px);
+}
+
+  .button {
+    margin-left: 20%;
+    margin-top: 10px;
+  }
+
+}
+  

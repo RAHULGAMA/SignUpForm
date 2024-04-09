@@ -1,0 +1,272 @@
+.pr p {
+  margin-left: 72%;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.pr1 {
+  margin-left: 22%;
+  margin-top: 20px;
+}
+
+.hd {
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 200px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-left: 200px;
+}
+
+.form-group1 label {
+  font-weight: bold;
+  margin-left: 200px;
+}
+
+.form-group2 label {
+  font-weight: bold;
+  margin-left: 200px;
+}
+
+.signup-container {
+  display: flex;
+  height: 100vh;
+  max-width: 1500px;
+}
+
+.background-image {
+  width: 35%;
+  background-image: url('../src/assets/images/background.jpeg');
+  background-size: cover;
+}
+
+.signup-form {
+  width: 65%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+.background-image h1 {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(110, 110, 15, 0.855);
+}
+
+.form-group,
+.form-group1,
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-group1 input[type="text"] {
+  width: 24%;
+  padding: 5px;
+  border: 0px solid #ccc;
+  background-color: rgb(237, 237, 237);
+  border-radius: 5px;
+  margin-left: 200px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 50%;
+  padding: 5px;
+  border: 0px solid #ccc;
+  background-color: rgb(237, 237, 237);
+  border-radius: 5px;
+  margin-left: 200px;
+  margin-top: 8px;
+}
+
+.form-group2 input[type="password"] {
+  width: 24%;
+  padding: 5px;
+  border: 0px solid #ccc;
+  background-color: rgb(237, 237, 237);
+  border-radius: 5px;
+  margin-left: 200px;
+  margin-top: 8px;
+}
+
+.btn {
+  background-color: #DE2980;
+  color: white;
+  width: 160px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+
+.error-message {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+}
+
+.pr span {
+  color: rgb(110, 115, 251);
+}
+
+.pr1 span {
+  color: rgb(110, 115, 251);
+}
+
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group1 {
+  margin-bottom: 10px;
+}
+
+.form-group span {
+  color: rgb(110, 115, 251);
+}
+
+
+.form-group input[type="checkbox"] {
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 40px;
+}
+
+span:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+
+.exclamation-mark {
+  color: red;
+}
+
+
+.btn:hover {
+  background-color: #d66199;
+}
+
+.clr {
+  color: grey;
+  font-size: 14px;
+  font-weight: 0;
+}
+
+
+
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .pr p {
+    margin-left: 6%;
+    font-size: 14px;
+  }
+
+  .pr1 {
+    margin-left: 6%;
+    margin-top: 2%;
+  }
+
+  .hd {
+    font-size: medium;
+    margin-left: 6%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .form-group label {
+    font-weight: bold;
+    margin-left: 6%;
+  }
+
+  .form-group1 label {
+    font-weight: bold;
+    margin-left: 6%;
+  }
+
+  .form-group2 label {
+    font-weight: bold;
+    margin-left: 6%;
+  }
+
+  .signup-container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .background-image {
+    width: 110%;
+    height: auto;
+    background-image: url('../src/assets/images/background.jpeg');
+    background-size: cover;
+  }
+
+  .signup-form {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .background-image img {
+    margin-right: 70%;
+  }
+
+  .form-group11 input {
+    margin-right: -30%;
+  }
+
+  .form-group label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .form-group1 input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    margin-left: 6%;
+    width: 90%;
+  }
+
+  .form-group2 input[type="password"] {
+    width: 90%;
+    margin-left: 6%;
+    margin-right: auto;
+  }
+
+  .btn {
+    width: 43%;
+    margin-left: 6%;
+  }
+
+  .form-group input[type="checkbox"] {
+    margin-top: 5px;
+  }
+
+  .error-message {
+    margin-left: 6%;
+  }
+
+}
+
